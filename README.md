@@ -65,7 +65,7 @@ O root contém um `package.json` configurado com workspaces (`backend` e `fronte
 1. **Clone o repositório**:
 
    ```bash
-   git clone https://github.com/SEU_USUARIO/ecommerce-mvc.git
+   git clone https://github.com/archwes/ecommerce-mvc.git
    cd ecommerce-mvc
    ```
 
