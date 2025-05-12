@@ -85,8 +85,10 @@ O root contém um `package.json` configurado com workspaces (`backend` e `fronte
 
 4. **Popule o banco de dados**:
 
+   * No diretório `backend`, abra o `Terminal` e digite:
+
    ```bash
-   npm --workspace backend run seed
+   node seed.js
    ```
 
 5. **Inicie em modo desenvolvimento**:
@@ -108,7 +110,7 @@ O root contém um `package.json` configurado com workspaces (`backend` e `fronte
 | `npm run dev`                      | Roda front e back em paralelo (dev)       |
 | `npm run dev:frontend`             | Roda apenas o front-end (Next.js)         |
 | `npm run dev:backend`              | Roda apenas o back-end (Express)          |
-| `npm --workspace backend run seed` | Popula produtos de exemplo no MongoDB     |
+| `node seed.js`                     | Popula produtos de exemplo no MongoDB     |
 
 ---
 
