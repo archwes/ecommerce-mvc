@@ -1,0 +1,22 @@
+{
+    "name": "ecommerce-mvc",
+    "version": "1.0.0",
+    "private": true,
+    "workspaces": [
+        "backend",
+        "frontend"
+    ],
+    "scripts": {
+        "dev:backend": "npm --workspace backend run dev",
+        "dev:frontend": "npm --workspace frontend run dev",
+        "dev": "concurrently \"npm run dev:backend\" \"npm run dev:frontend\""
+    },
+    "devDependencies": {
+        "concurrently": "^8.0.0"
+    },
+    "dependencies": {
+        "lucide-react": "^0.508.0",
+        "react-icons": "^5.5.0",
+        "styled-components": "^6.1.18"
+    }
+}
